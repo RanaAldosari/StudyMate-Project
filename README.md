@@ -31,6 +31,9 @@ Use the same content as in the provided .env.example.
 🐳 Docker Setup
 In the root directory, there is a docker-compose.yml file.
 It is currently commented out, so you will need to uncomment it before running Docker.
+
+![Home](https://i.postimg.cc/vmwRfmK1/Screenshot-2025-11-02-105348.png)
+
 Then you can start the project using:
 
 docker compose up --build
