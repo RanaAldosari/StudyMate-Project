@@ -35,7 +35,7 @@ services:
       DB_NAME: ${DB_NAME}
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
-      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      API_KEY: ${API_KEY}
       OPENAI_MODEL: ${OPENAI_MODEL}
       AI_DATA_PATH: ${AI_DATA_PATH}
     depends_on:

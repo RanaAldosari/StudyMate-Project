@@ -1,8 +1,8 @@
 from openai import OpenAI
 from typing import Optional
 
-OPENAI_API_KEY = "sk-proj***"
-client = OpenAI(api_key=OPENAI_API_KEY)
+API_KEY = "sk-proj***"
+client = OpenAI(api_key=API_KEY)
 
 OPENAI_MODEL = "gpt-4o-mini"
 AI_DATA_PATH = "./ai_data.txt"
