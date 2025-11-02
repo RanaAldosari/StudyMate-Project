@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+  <head>
+   
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const theme = saved || (prefersDark ? 'dark' : 'light');
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="modal-root"></div> 
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

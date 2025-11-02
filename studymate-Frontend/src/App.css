@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root { color-scheme: light; }
+  .dark { color-scheme: dark; }
+
+  html { height: 100%; }
+body {
+  @apply min-h-screen antialiased
+         bg-white text-slate-900
+         dark:bg-slate-900 dark:text-slate-100;
+}}

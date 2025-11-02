@@ -1,0 +1,5 @@
+testt
+# StudyMate quick catalog notes
+- Beginner-friendly: Python for Beginners (20h, rating 4.7), CSS Grid & Flexbox (15h, 4.7)
+- Advanced & long: Machine Learning A-Z (60h, 4.9), Deep Learning with TensorFlow (55h, 4.9)
+- Programming (6), Design (5), Data Science (4), Business (4)
