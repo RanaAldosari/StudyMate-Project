@@ -1,7 +1,7 @@
 from openai import OpenAI
 from typing import Optional
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "sk-proj***"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 OPENAI_MODEL = "gpt-4o-mini"
